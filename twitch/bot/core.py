@@ -4,11 +4,11 @@
 import os
 import sys
 import json
+import twitchio
 from threading import local
 from twitchio import webhook
 from random import choice, randint
 from asyncio import sleep
-import twitchio
 from twitchio.ext import commands
 from twitchio.errors import AuthenticationError
 
